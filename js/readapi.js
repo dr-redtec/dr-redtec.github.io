@@ -15,7 +15,7 @@ function readapi() {
     .then(response => {
       jsondata = response;
       localStorage.setItem('nfts', JSON.stringify(jsondata));
-      window.location.replace("https://dr-redtec.guthub.io/gallery.html");
+      window.location.replace("https://dr-redtec.github.io/gallery.html");
       // var cat = JSON.parse(localStorage.getItem('myCat'));
       // console.log(cat);
       // console.log(jsondata);
